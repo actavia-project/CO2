@@ -1,0 +1,53 @@
+body {
+    font-family: Cascadia Code;Cascadia Mono;monospace;
+}
+.startbutton {
+    color: rgb(255, 255, 255);
+    font-family: Cascadia Code;Cascadia Mono;monospace;
+    background-color: rgb(0, 98, 255);
+    font-size: medium;
+    padding: 8px;
+    border: 0cap;
+}
+.startbutton:hover {
+    transition: 0.5s all ease;
+    font-weight: bold;
+    background-color: rgb(191, 0, 255);
+}
+.startbutton:active {
+    background-color: rgb(104, 0, 139);
+}
+.topinfo {
+    color: rgb(0, 98, 255);
+}
+.top {
+    position: flex;
+}
+.cont-container {
+    display: flex;         /* Membuat elemen di dalamnya berjejer ke samping */
+    align-items: center;   /* Membuat teks dan gambar sejajar secara vertikal di tengah */
+    gap: 50px;             /* Memberi jarak antara gambar dan teks */
+    padding: 20px;
+    flex-wrap: wrap;       /* Supaya teks pindah ke bawah jika layar HP (responsif) */
+}
+.txt-cont {
+    flex: 1;
+    min-width: 300px;
+}
+.title-desc {
+    flex: 1;               /* Membuat teks mengisi sisa ruang yang tersedia */
+    line-height: 1.6;      /* Memberi spasi antar baris agar nyaman dibaca */
+    min-width: 250px;      /* Batas minimum sebelum teks pindah ke bawah gambar */
+    font-weight: bold;
+    font-size: 1cm;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(0, 98, 255);
+}
+.desc {
+    flex: 1;               /* Membuat teks mengisi sisa ruang yang tersedia */
+    line-height: 1.6;      /* Memberi spasi antar baris agar nyaman dibaca */
+    min-width: 250px;      /* Batas minimum sebelum teks pindah ke bawah gambar */
+    font-size: 15px;
+    margin-top: 0;
+}
